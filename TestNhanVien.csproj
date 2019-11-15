@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Syncfusion.Licensing" Version="17.3.0.26" />
+    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="17.3.0.26" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.3.0.26" />
+    <PackageReference Include="System.Runtime.Numerics" Version="4.3.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.947036" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+</Project>
